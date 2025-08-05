@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Sohail Ali</title>
+  <meta name="description" content="Get in touch with Sohail Ali, Creative Front-End Developer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">Sohail<span>Ali</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="resume.pdf" class="btn btn-outline" download>Resume</a></li>
+        </ul>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h1 class="section-title">Get In Touch</h1>
+      <p class="section-subtitle">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+      
+      <div class="contact-content">
+        <div class="contact-info fade-in">
+          <h2>Contact Information</h2>
+          <p>I'm currently available for freelance work or full-time positions. If you have a project that you want to get started, think you need my help with something, or just fancy saying hello, then get in touch.</p>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <img src="assets/icons/email.svg" alt="Email">
+            </div>
+            <div class="info-text">
+              <h3>Email</h3>
+              <a href="mailto:sohailflames@gmail.com">sohailflames@gmail.com</a>
+            </div>
+          </div>
+          
+          
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </div>
+            <div class="info-text">
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/sohail-ali017" target="_blank">linkedin.com/in/sohail-ali017</a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <img src="assets/icons/github.svg" alt="GitHub">
+            </div>
+            <div class="info-text">
+              <h3>GitHub</h3>
+              <a href="https://github.com/SohailAli17" target="_blank">github.com/SohailAli17</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form fade-in delay-1">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          
+          <div id="formSuccess" class="form-success">
+            <i class="fas fa-check-circle"></i>
+            <p>Your message has been sent successfully! I'll get back to you soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="footer-logo">Sohail<span>Ali</span></a>
+        
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="social-links">
+          <a href="https://github.com/SohailAli17" target="_blank" aria-label="GitHub">
+            <img src="assets/icons/github.svg" alt="GitHub">
+          </a>
+          <a href="https://linkedin.com/in/sohail-ali017" target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="mailto:sohailflames@gmail.com" aria-label="Email">
+            <img src="assets/icons/email.svg" alt="Email">
+          </a>
+        </div>
+        
+        <p class="copyright">© <span id="year"></span> Sohail Ali. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>
